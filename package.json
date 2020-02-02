@@ -1,0 +1,34 @@
+{
+  "name": "polyfill-io-usage-webpack-plugin",
+  "version": "0.0.1",
+  "description": "Inject HTML tags for polyfill.io using @babel/preset-env built-ins",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spncrmu/polyfill-io-usage-webpack-plugin.git"
+  },
+  "author": "Danny Spencer <danny@spncrmoo.com.com> (https://github.com/spncrmu)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spncrmu/polyfill-io-usage-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/spncrmu/polyfill-io-usage-webpack-plugin#readme",
+  "keywords": [
+    "webpack",
+    "plugin",
+    "html",
+    "html-webpack-plugin",
+    "polyfill",
+    "babel"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4"
+  }
+}
