@@ -2,7 +2,7 @@
   "name": "polyfill-io-usage-webpack-plugin",
   "version": "0.0.1",
   "description": "Inject HTML tags for polyfill.io using @babel/preset-env built-ins",
-  "main": "index.js",
+  "main": "src/index.js",
   "directories": {
     "example": "example"
   },
@@ -29,6 +29,9 @@
   ],
   "devDependencies": {
     "@babel/core": "^7.8.4",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.8.3",
     "@babel/preset-env": "^7.8.4"
   }
 }

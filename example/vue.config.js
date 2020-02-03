@@ -1,4 +1,4 @@
-const PolyfillIoUsageWebpackPlugin = require('../index.js')
+const PolyfillIoUsageWebpackPlugin = require('../src/index.js')
 
 module.exports = {
   configureWebpack: {

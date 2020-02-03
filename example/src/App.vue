@@ -17,9 +17,6 @@ export default {
     return {
       items: [1,2,3]
     }
-  },
-  mounted() {
-    if(this.items.includes(2)) console.log('hey')
   }
 }
 </script>
